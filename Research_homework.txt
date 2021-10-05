@@ -1,2 +1,9 @@
 1. What is .gitignore? You can write the answer either in Korean or English.
+it specifies files to intentionally not track/ignore. Usefull when you want to exclude certain files to be pushed into 
+github repository. gitignore is a good alternative to just not adding the file because when the project becomes big, it 
+can be tedieous to add the files one by one. instead, you can add all the files at once and only exclude certain files that
+you do not want to include.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+When you add a SSH key to your github account, you can connect to github without typing our id and password each time. 
+A SSH key is also useful because it can grant access to multiple parties without sharing passwords. 

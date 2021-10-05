@@ -28,6 +28,16 @@ int main()
 	/***********************************
 	Implement the code here!
 	************************************/
+	int count=0;
+	for(int i=0; i<arrsize; i++){
+		count=0;
+		for(int j=0; j<arrsize; j++){
+			if(arr[j]<arr[i]){
+				count+=1;
+			}
+		}
+		output[i]=count;
+	}
 
 	for (int i = 0; i < arrsize; i++) {
 		cout << output[i] << " ";
